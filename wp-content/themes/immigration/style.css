@@ -1,0 +1,825 @@
+/*
+Theme Name: immigration
+Author: Vegibit
+Author URI: https://vegibit.com
+Version: 1.0
+*/
+body {
+    font-family: Poppin, sans-serif;
+    font-size: 16px;
+    color: #545454;
+}
+
+a:link,
+a:visited {
+    color: #4285f4;
+}
+
+p {
+    line-height: 1.7em;
+}
+
+/*menu css*/
+.menu-desktop ul {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 40px 20px 40px 20px !important;
+    float: right;
+}
+
+.menu-desktop ul li {
+    padding: 0px 20px;
+}
+
+.site-header {
+    position: fixed;
+    background: white;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 2px solid #0071bc;
+}
+
+/* Change the background color on mouse-over */
+.menu-desktop a:hover {
+    color: #333333;
+    border-bottom: 3px solid #0071BC !important;
+}
+
+
+@media (max-width: 991px) {
+    .menu-desktop {
+        display: none;
+    }
+
+    .menu-hammburger {
+
+        float: right;
+
+        padding-top: 20px;
+        display: block !important;
+
+    }
+
+    /*   iframe{
+    width: 600px !important;
+}*/
+
+}
+
+.menu-hammburger {
+    display: none;
+}
+
+.menu-hammburger .menu-menu-container {
+    display: none;
+}
+
+#menu-menu-2 li {
+    padding: 10px 0px 20px 0px;
+}
+
+#menu-menu-2 li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul#menu-menu-2 {
+    list-style: none;
+}
+
+nav.limiter-menu-desktop.container {
+    height: 100px;
+}
+
+#menu-menu-2 li a:HOVER {
+    FONT-SIZE: 24PX;
+
+}
+
+.list-unstyled li a:HOVER {
+    FONT-SIZE: 24PX;
+}
+
+.site-header a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+    text-decoration: none;
+}
+
+h5.text-uppercase {
+    padding: 20px;
+}
+
+a.btn.btn-link i {
+    color: #0071BC;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    background: white;
+}
+
+ul.icons {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.copyright_reserved {
+    padding: 40px 0px 40px 0px;
+}
+
+.list-unstyled li {
+    padding: 10px 0px 20px 0px;
+}
+
+.list-unstyled li a {
+    text-decoration: none;
+}
+
+footer.bg-primary.text-white.text-center.text-lg-start {
+    --bs-bg-opacity: 1;
+    background-color: #0071BC !important;
+}
+
+footer.bg-primary.text-white.text-center.text-lg-start {
+    padding-top: 40px;
+}
+
+img.footer_logo {
+    padding: 0px 20px 40px 0px;
+}
+.carousel-item img {
+    width: 100%;
+  
+    border-radius: 50%;
+    height: 700px;
+}
+
+.banner-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.carousel-indicators li {
+    height: 0.8rem;
+    width: .8rem;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+/*top header css*/
+
+section.top_header_slider {
+    /* top: 136px; */
+    padding-top: 150px;
+}
+
+.top_header_slider .social_icons .icons a {
+    padding: 0 20px 0px 0;
+}
+
+section.top_header_slider1 {
+    /* top: 136px; */
+    padding-top: 100px;
+}
+
+.title_slider {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.the_post_thumbnail {
+    background: #0071BC;
+    /* border: 1px solid; */
+    border-radius: 50%;
+}
+
+.p-30 {
+    padding: 40px !important;
+}
+
+.social_icons a.btn.btn-link i {
+    color: #0071BC;
+    font-size: 24px;
+    padding: 20px 0px;
+    background: white;
+}
+
+button.btn.btn-primary {
+    background: #0071BC !important;
+    border: none !important;
+    padding: 10px !important;
+    font-size: 22px;
+}
+
+.btn.btn-primary:hover {
+    background: white !important;
+    border: 1px solid #0071bc !important;
+    color: #0071bc !important;
+}
+
+.the_post_thumbnail1 .attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    width: 200px;
+    height: 100%;
+    border: 1px solid #9999;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.the_post_thumbnail1,
+.the_post_thumbnail2 {
+    text-align: center;
+}
+
+.the_post_thumbnail2 .attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    width: 100%;
+    /* height: 100%; */
+    max-width: 400px;
+}
+
+.countries .card {
+    margin: 0px 10px;
+    border: none !important;
+}
+
+.countries .image_card img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.countries h5.card-title {
+    padding: 15px 0px;
+    font-size: 24px !important;
+}
+
+button.slick-prev.slick-arrow,
+button.slick-next.slick-arrow {
+    display: none !important;
+}
+
+.slick-dots li button:before {
+    font-size: 15px !important;
+    line-height: 15px !important;
+}
+
+.wpcf7 input,
+.wpcf7 textarea,
+.wpcf7 select {
+    width: 100% !important;
+    border: 1px solid #6666;
+    padding: 7px;
+    border-radius: 10PX;
+    MARGIN-TOP: 10PX;
+}
+
+.wpcf7 label {
+    display: block !important;
+    FONT-SIZE: 18PX;
+    font-weight: 400;
+}
+
+div.wpcf7 {
+    max-width: 30em !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+input.wpcf7-form-control.has-spinner.wpcf7-submit {
+    padding: 10px 40px;
+    display: block;
+    margin: 0 auto;
+    width: 150px !important;
+    background: #fff;
+    border: none;
+
+    color: #0071bc;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+input.wpcf7-form-control.has-spinner.wpcf7-submit:hover {
+    background: #0071bc;
+    color: #fff;
+    border: 1px solid white;
+}
+
+textarea.wpcf7-form-control.wpcf7-textarea {
+    height: 150px;
+}
+
+div.wpcf7 {
+    max-width: 45em !important;
+    /* margin-left: auto !important; */
+    /* margin-right: auto !important; */
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%), 0 6px 20px 0 rgb(0 0 0 / 10%) !important;
+    PADDING: 30PX !important;
+    border-radius: 10px;
+    /* margin: 30px; */
+    background: #0071bc;
+    color: white;
+}
+
+h2.heading {
+    text-align: center;
+    color: #0071bc;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.slick-dots li button:before {
+    color: #0071bc !important;
+}
+
+.redy {
+    background: #6666;
+    padding: 80px 0px;
+}
+
+.fa-arrow-right:before {
+    content: "";
+}
+
+.heading_top_all {
+    padding: 50px 0px;
+}
+
+/*cards section css*/
+.cardss .card:hover {
+    /*background: #0071bc;
+color: #ffff !important;*/
+    border: 2px solid #0071bc;
+    transform: scale(1.1);
+    background: linear-gradient(0deg, rgb(255 255 255) 10%, rgb(0 113 188) 70%, rgb(0 90 150) 100%);
+}
+
+section.cardss {
+    background: #F8F8F8;
+    padding: 40px 30px
+}
+
+.cardss .card-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px !important;
+    background: linear-gradient(to right, #005a96 10%, #0071bc 50%, #000 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+    display: inline-block;
+}
+
+.cardss .card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    text-align: center;
+}
+
+.cardss h5.card-subtitle a:hover {
+    color: #333333 !important;
+    text-decoration: none;
+}
+
+.cardss h5.card-subtitle a {
+    color: #0071BC !important;
+    text-decoration: none;
+}
+
+.cardss h5.card-subtitle {
+    padding: 15px 0px;
+}
+
+.cardss img {
+    border-radius: 20px;
+    height: 100px;
+    background: white;
+    margin: 15px;
+    padding: 10px;
+    width: 100px;
+}
+
+.cardss .card {
+    margin: 1em 0em;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%), 0 6px 20px 0 rgb(0 0 0 / 10%);
+    background: #d5e7f4;
+}
+
+
+/*testimonials css*/
+.testimonials img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image:hover {
+    width: 200px;
+    height: 130px;
+    border-radius: 30px;
+    transform: scale(1.1);
+}
+
+.testimonials {
+    padding: 40px 0px 40px 0px;
+}
+
+.testimonials .title {
+    text-align: center;
+}
+
+.testimonials .card {
+    margin: 20px 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%), 0 6px 20px 0 rgb(0 0 0 / 10%) !important;
+}
+
+.testimonials img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    width: 200px;
+    height: 130px;
+    border-radius: 30px;
+}
+
+.testimonials .testimonials_name {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+span.testimonials_designation {
+    padding-left: 30px !important;
+}
+
+
+.testimonials .card-text {
+    padding: 30px 0px;
+    margin-bottom: 0;
+}
+
+section.testimonials {
+    background: #D5E7F4;
+}
+
+.form_Calculate {
+    max-width: 50em !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    PADDING: 50PX !important;
+}
+
+
+.text_description_title {
+    max-width: 50em !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    PADDING: 10% 8% !important;
+}
+
+.site-header {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        border-bottom-color: #0071bc;
+    }
+
+    to {
+        border-bottom-color: #9999;
+    }
+}
+
+/*.title:first-of-type {
+    animation: showup 7s;
+}
+
+.title:last-of-type {
+    width: 0px;
+    animation: reveal 7s;
+}
+
+.title:last-of-type .title-slider {
+    margin-left: -355px;
+    animation: slidein 7s;
+}*/
+
+
+@keyframes showup {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/*@keyframes slidein {
+    0% {
+        margin-left: -800px;
+    }
+
+    20% {
+        margin-left: -800px;
+    }
+
+    35% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}*/
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+
+    20% {
+        opacity: 1;
+        width: 0px;
+    }
+
+    30% {
+        width: 355px;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        width: 355px;
+    }
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+section.countries {
+    padding: 40px 0px;
+}
+
+
+/*services css*/
+.services .card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: #0071bc;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 20px;
+    background-position: center center;
+
+}
+
+.services .card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+/* Assigning properties to inner
+            content of card  */
+.services .card__inner {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: absolute;
+    border-radius: 20px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.4s ease 0s;
+}
+
+/* On hovering card opacity of
+            content must be 1*/
+.services .card:hover .card__inner {
+    opacity: 1;
+}
+
+/* General property for heading
+            and paragraph*/
+.services .card__inner h2 {
+    margin-top: 1rem;
+}
+
+.services .card__inner p {
+
+    height: 87%;
+    padding-right: 1rem;
+    font-weight: 200;
+    line-height: 2.5rem;
+    margin-top: 1.5rem;
+}
+.services .card__inner a {
+
+    height: 87%;
+    padding-right: 1rem;
+   font-size: 20px;
+    line-height: 2.5rem;
+    margin-top: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+.card_div_main{
+    margin-bottom: 20px;
+}
+
+
+.contact .contact_list i {
+    width: 100px;
+    /* height: 60px; */
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    background: #0071bc;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.contact .contact_list li {
+    text-align: center;
+}
+
+.contact .contact_list p {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 20px 0px;
+}
+
+section.contact {
+    padding: 40px 0px;
+}
+
+
+h2.heading:HOVER {
+    FONT-SIZE: 40PX;
+}
+
+h3.text-center.p-30 {
+    FONT-WEIGHT: 700;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+
+.title_slider {
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: -100%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes slideout {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
+
+iframe {
+    width: 100%;
+}
+
+
+
+.countries .image_card img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transform: scale(1.2);
+}
+
+
+/*about us css*/
+
+.awards_text {
+    padding: 40px 0px 0px 0px;
+}
+
+.about_us_image  img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image{
+    padding: 0px;
+    width: 400px;
+    height: 300px;
+}
+.about_us_image  img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image:hover{
+    transform: scale(1.1);
+}
+   .about_us_image {
+    position: relative;
+    z-index: 1;
+}
+.about_us_image::before {
+    bottom: -21px;
+    right: 100px;
+}
+.about_us_image::before, .about_us_image::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 400px;
+    height: 300px;
+    border: 3px solid #ccc;
+}
+.about_us_image_section{
+    padding: 20px;
+}
+.post_thumbnail_about img {
+    width: 100%;
+}
+.post_thumbnail_about {
+    display: block;
+    overflow: hidden;
+}
+.about_us_text p {
+    font-size: 20px;
+
+    justify-content: left;
+    text-align: left;
+   
+}
+.about_us_text{
+     animation-duration: 2s;
+     animation-name: slidein;
+     animation-iteration-count: 1;
+}
+.award_us_text p {
+    font-size: 20px;
+    padding: 20px 0px;
+    justify-content: left;
+    text-align: center;
+    animation-duration: 5s;
+    animation-name: slideout;
+    animation-iteration-count: 1;
+}
+
+.about_us_text {
+    padding: 40px 0px;
+}
+.awrds{
+    padding-bottom: 40px;
+}
+/*footer*/
+
+ footer .icons a.btn.btn-link i:hover {
+    color: #fff;
+    background: #0071bc;
+}
