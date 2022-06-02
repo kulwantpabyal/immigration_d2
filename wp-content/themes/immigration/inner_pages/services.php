@@ -27,7 +27,7 @@
                     'tax_query'     => array(
                                            array(
                                                'taxonomy' => 'category',
-                                               'terms'    => array( $cat->term_id ),
+                                            
                                                'field'   => 'term_id'
                                            )
             
